@@ -6,7 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter Variable', 'Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['"Inter Variable"', 'Inter', ...defaultTheme.fontFamily.sans],
+        mono: ['"Sometype Mono"', 'monospace'],
+        display: ['"Bungee Shade"', 'system-ui'],
       },
     },
   },
