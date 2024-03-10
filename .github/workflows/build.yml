@@ -22,7 +22,7 @@ jobs:
           node-version: 21
           cache: 'npm'
 
-      - name: test
+      - name: Test
         run: |
           npm ci
           npm t
@@ -40,7 +40,7 @@ jobs:
           node-version: 21
           cache: 'npm'
 
-      - name: build
+      - name: Build
         run: |
           npm ci
           npm run build
