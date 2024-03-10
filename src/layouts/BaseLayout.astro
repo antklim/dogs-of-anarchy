@@ -1,6 +1,8 @@
 ---
 import '@/styles/base.css'
 
+import Header from '@/components/Header.astro'
+
 const { pageTitle } = Astro.props
 ---
 
@@ -13,6 +15,7 @@ const { pageTitle } = Astro.props
     <title>{pageTitle}</title>
   </head>
   <body>
+    <Header />
     <p class="font-display text-2xl">Dogs of Anarchy</p>
     <slot />
   </body>
