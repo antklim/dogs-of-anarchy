@@ -4,15 +4,17 @@ import '@/styles/base.css'
 import Head from '@/components/Head.astro'
 import Header from '@/components/Header.astro'
 
-const { pageTitle } = Astro.props
+const { title } = Astro.props
 ---
 
 <html lang="en">
-  <Head />
+  <Head title={title} />
   <body>
     <div class="bg-zinc-50">
       <Header />
-      <p class="font-display text-2xl text-emerald-500">Dogs of Anarchy</p>
+      <div class="content mx-auto max-w-xl text-center">
+        <p class="font-display text-2xl text-emerald-500">Dogs of Anarchy</p>
+      </div>
       <slot />
     </div>
   </body>
