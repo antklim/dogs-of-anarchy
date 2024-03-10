@@ -15,8 +15,10 @@ const { pageTitle } = Astro.props
     <title>{pageTitle}</title>
   </head>
   <body>
-    <Header />
-    <p class="font-display text-2xl">Dogs of Anarchy</p>
-    <slot />
+    <div class="bg-zinc-50">
+      <Header />
+      <p class="font-display text-2xl text-emerald-500">Dogs of Anarchy</p>
+      <slot />
+    </div>
   </body>
 </html>
