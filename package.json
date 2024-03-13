@@ -12,7 +12,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.5.8",
+    "@astrojs/check": "^0.5.9",
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource-variable/sometype-mono": "^5.0.2",
     "@fontsource/bungee-shade": "^5.0.19",
