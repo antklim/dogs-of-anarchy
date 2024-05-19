@@ -1,5 +1,6 @@
 @import '@fontsource-variable/sometype-mono';
 @import '@fontsource/bungee-shade';
+@import '@fontsource/bungee';
 
 @tailwind base;
 @tailwind components;

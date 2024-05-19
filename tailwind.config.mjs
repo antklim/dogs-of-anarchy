@@ -13,6 +13,7 @@ export default {
         sans: ['"Inter Variable"', 'Inter', ...defaultTheme.fontFamily.sans],
         mono: ['"Sometype Mono"', 'monospace'],
         display: ['"Bungee Shade"', 'system-ui'],
+        menu: ['Bungee', 'system-ui'],
       },
     },
   },
