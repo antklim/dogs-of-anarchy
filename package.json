@@ -18,7 +18,7 @@
     "@fontsource/bungee": "^5.0.21",
     "@fontsource/bungee-shade": "^5.0.21",
     "@tailwindcss/typography": "^0.5.14",
-    "astro": "^4.13.3",
+    "astro": "^4.13.4",
     "tailwindcss": "^3.4.10"
   },
   "devDependencies": {
