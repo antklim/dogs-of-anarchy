@@ -15,7 +15,7 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource-variable/sometype-mono": "^5.1.0",
-    "@fontsource/bungee": "^5.0.23",
+    "@fontsource/bungee": "^5.1.0",
     "@fontsource/bungee-shade": "^5.0.23",
     "@tailwindcss/typography": "^0.5.15",
     "astro": "^4.15.4",
